@@ -2,7 +2,7 @@
 
 class DocumentModel extends Model {
 
-  private static $fieldNames = array('mime_type', 'content');
+  private static $fieldNames = array('mime_type', 'file_name', 'content');
 
   public function __construct($fields = null) {
     parent::__construct($fields);

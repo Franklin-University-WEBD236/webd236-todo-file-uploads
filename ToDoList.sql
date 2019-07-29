@@ -51,6 +51,7 @@ INSERT INTO "todo" VALUES('Suggest a new king.',0,24,3);
 CREATE TABLE `document` (
   id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
   mime_type TEXT NOT NULL,
+  file_name TEXT NOT NULL,
   content BLOB
 );
 
