@@ -1,7 +1,5 @@
-# WEBD 236 To Do app with object orientation
+# WEBD 236 To Do app with file upload capabilities
 
 Goals are:
-  - migrate to objects for Model, View, and Controller
-  - create an auto-loader to avoid imports
-  - use the Validator class effectively
-  - move to hashed passwords
+  - Allow users to upload profile pictures
+  - Allow multiple file-based attachments for each todo.
